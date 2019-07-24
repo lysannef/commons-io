@@ -16,6 +16,10 @@
 language: java
 sudo: false
 
+matrix:
+  include:
+    - os: linux-ppc64le
+      jdk: openjdk8
 jdk:
   - openjdk7
   - openjdk8
